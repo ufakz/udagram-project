@@ -17,12 +17,13 @@ spec:
       containers:
         - name: frontend
           image: farouqu/udagram-frontend:latest
+          envFrom:
+            - secretRef:
+                name: aws-secret
+            - configMapRef:
+                name: env-secret
+            - configMapRef:
+                name: env-configmap
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
-          livenessProbe:
-            httpGet:
-              path: /health
-              port: 8080
-            initialDelaySeconds: 3
-            periodSeconds: 3

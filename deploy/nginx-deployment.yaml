@@ -17,6 +17,13 @@ spec:
       containers:
         - image: farouqu/udagram-reverseproxy
           name: reverseproxy
+          envFrom:
+            - secretRef:
+                name: aws-secret
+            - configMapRef:
+                name: env-secret
+            - configMapRef:
+                name: env-configmap
           imagePullPolicy: Always
           resources:
             requests:
