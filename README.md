@@ -7,7 +7,7 @@ A full-stack microservices-based web application for image sharing. This project
 The application runs on AWS infrastructure more specifically AWS EKS. To setup your AWS environment for the project, kindly refer to the [Official AWS Documentations](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
 
 ## Infrastructure
-The corresponding deployment and service configuration files are located in the [deployments](./deployments) directory. Also configure your AWS secrets as needed.
+The corresponding deployment and service configuration files are located in the [deployments](./deploy) directory. Also configure your AWS secrets as needed.
 
 ## Microservices Architecture
 
