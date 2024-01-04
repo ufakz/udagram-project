@@ -28,7 +28,7 @@ Handles the feed functionality of the application.
 #### Deployment
 Deploy the feed API microservice on AWS EKS:
 1. Set up an AWS EKS cluster.
-2. Deploy the feed API microservice using Kubernetes manifests.
+2. Deploy the feed API microservice using the Kubernetes manifests.
 
 ### Udagram API - User
 
@@ -44,7 +44,7 @@ Manages user-related functionalities.
 #### Deployment
 Deploy the user API microservice on AWS EKS:
 1. Set up an AWS EKS cluster.
-2. Deploy the user API microservice using Kubernetes manifests.
+2. Deploy the user API microservice using the Kubernetes manifests.
 
 ### Udagram Frontend
 
@@ -60,7 +60,7 @@ The frontend component of the Udagram application.
 #### Deployment
 Deploy the frontend on AWS EKS:
 1. Set up an AWS EKS cluster.
-2. Deploy the frontend application using Kubernetes manifests.
+2. Deploy the frontend application using the Kubernetes manifests.
 
 ### Udagram Reverse Proxy
 
@@ -69,14 +69,12 @@ The reverse proxy server for load balancing across microservices.
 
 #### Setup
 1. Navigate to the `udagram-reverseproxy` folder.
-2. Install dependencies using `npm install`.
-3. Configure environment variables in a `.env` file.
-4. Run the reverse proxy server locally with `npm start`.
+2. The corresponding Dockerfile and nginx configuration are located there.
 
 #### Deployment
 Deploy the reverse proxy on AWS EKS:
 1. Set up an AWS EKS cluster.
-2. Deploy the reverse proxy server using Kubernetes manifests.
+2. Deploy the reverse proxy server using the Kubernetes manifests.
 
 ## Contributing
 We welcome contributions! Feel free to fork the repository, make your changes, and submit a pull request.
