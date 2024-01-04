@@ -4,7 +4,7 @@
 A full-stack microservices-based web application for image sharing. This project leverages AWS EKS, Kubernetes, Docker, Typescript, and React.
 
 ## Note
-The application runs on AWS infrastructure more specifically AWS EKS. To setup your AWS environment for the project, kindly refer to the [Official AWS Documentations](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
+The application runs on AWS infrastructure more specifically AWS EKS. To setup your AWS environment for the project, kindly refer to the [Official AWS Documentations](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html). Also configure your Kubernetes manifests using the appropriate image files.
 
 ## Infrastructure
 The corresponding deployment and service configuration files are located in the [deployments](./deploy) directory. Also configure your AWS secrets as needed.
