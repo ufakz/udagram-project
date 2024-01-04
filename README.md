@@ -3,6 +3,8 @@
 ## Overview
 A full-stack microservices-based web application for image sharing. This project leverages AWS EKS, Kubernetes, Docker, Typescript, and React.
 
+A serverless version of the application using AWS Lambda and DynamoDB is available [here](https://github.com/farouqu/udagram-sls).
+
 ## Note
 The application runs on AWS infrastructure more specifically AWS EKS. To setup your AWS environment for the project, kindly refer to the [Official AWS Documentations](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html). Also configure your Kubernetes manifests using the appropriate image files.
 
